@@ -1,0 +1,58 @@
+train: 25426 images
+test: 6357 images
+Total images: 31783
+Total folders: 2
+
+# image and captions dictionary :
+
+1000092795.jpg ['startseq two young guys with shaggy hair look at their hands while hanging out in the yard endseq', 'startseq two young white males are outside near many bushes endseq', 'startseq two men in green shirts are standing in a yard endseq', 'startseq a man in a blue shirt standing in a garden endseq', 'startseq two friends enjoy time spent together endseq']
+
+1. Reduced capacity / representational power
+
+Issue: You drastically reduced the number of layers (block_layers=(6,6,6) vs DenseNet201’s 6-12-48-32) and growth rate (16 vs 32-64+ in DenseNet201).
+
+Consequence:
+
+The model may not capture very fine-grained image features.
+
+Some subtle details in complex images may be lost.
+
+Feature embeddings may be less rich than DenseNet201 embeddings.
+
+2. Smaller receptive field
+
+Issue: Standard DenseNet has a deep network with multiple downsampling layers and bottlenecks, which increases the receptive field.
+
+Consequence:
+
+Your light model may see smaller regions of the image at once, missing some global context.
+
+For image captioning, this could slightly impact understanding of large objects or complex scenes.
+
+3. Less pre-trained transfer learning benefit
+
+Issue: DenseNet201 comes with ImageNet pre-trained weights, capturing general visual features.
+
+Consequence:
+
+Your custom light model has to be trained from scratch unless you do your own pre-training.
+
+This can increase training time and reduce feature quality in early experiments.
+
+4. Potential overfitting / underfitting tradeoff
+
+Pros: Fewer parameters → less chance of overfitting on small datasets.
+
+Cons: Fewer parameters → may underfit large datasets, especially when images have high variability like Flickr30k.
+
+5. No built-in dense connectivity for feature reuse
+
+DenseNet’s original strength: dense connectivity between all layers in a block, which promotes feature reuse and gradient flow.
+
+Your simplified dense blocks + smaller growth rate may partially reduce these benefits, especially for deep layer interactions.
+
+6. Lack of pre-attention / context awareness
+
+DenseNet201 features can be combined with attention in downstream models.
+
+Your lightweight network may benefit more from explicit attention layers since the features may be less rich / less globally contextual.

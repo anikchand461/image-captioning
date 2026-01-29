@@ -1,0 +1,5 @@
+captions-dataset - https://www.kaggle.com/datasets/anikchand/captions-dataset
+features-base - https://www.kaggle.com/datasets/anikchand/features-base/data
+flickr21k-image-dataset - https://www.kaggle.com/datasets/hsankesara/flickr-image-dataset
+
+

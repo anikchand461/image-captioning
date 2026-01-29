@@ -1,0 +1,4 @@
+all LSTMs - https://www.kaggle.com/code/anikchand/image-captioning-with-flickr30k-dataset
+img2txt-3c - https://www.kaggle.com/code/anikchand/img2txt-3c
+all encoders - https://www.kaggle.com/code/anikchand/image2text
+
