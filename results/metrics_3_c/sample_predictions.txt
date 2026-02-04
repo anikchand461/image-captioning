@@ -1,0 +1,93 @@
+SAMPLE CAPTION PREDICTIONS
+======================================================================
+
+Image 1: 50157360.jpg
+Human references:
+  • one woman in reddish-orange veil and dress is laughing and conversing with another woman in a white veil and light green dress .
+  • a woman wearing glasses and an orange dress is standing with another woman wearing glasses and a green dress .
+  • a lady dressed in red laughing with a lady dressed in green holding plates of food in their hands .
+Greedy:   "a man in a blue shirt is in a"
+Beam (k=3): ""
+----------------------------------------------------------------------
+
+Image 2: 3376435746.jpg
+Human references:
+  • a person in a yellow slicker is driving a motorboat next to the beach .
+  • a person in a raincoat stands in a boat going across the water .
+  • this person is driving a boat on a secluded beach .
+Greedy:   "a man in a blue shirt is in a"
+Beam (k=3): ""
+----------------------------------------------------------------------
+
+Image 3: 4941360966.jpg
+Human references:
+  • a teenager develops his skateboarding technique in front of a beautiful , ornate building .
+  • a man is in the middle of a skateboard trick in front of a gray building .
+  • a young male skateboards in front of a majestic european-style building .
+Greedy:   "a man in a blue shirt is in a"
+Beam (k=3): ""
+----------------------------------------------------------------------
+
+Image 4: 4586137415.jpg
+Human references:
+  • a young asian girl wearing a pink outfit is walking past a bicycle .
+  • our little model is wearing the colors for spring white and pink .
+  • a little girl dressed in pink and white is walking .
+Greedy:   "a man in a blue shirt is in a"
+Beam (k=3): ""
+----------------------------------------------------------------------
+
+Image 5: 5446041790.jpg
+Human references:
+  • a man and a woman are dancing , the woman is on top of the man 's shoulder and the man looks about ready to helicopter the woman .
+  • a male dancer in beige lifts his female companion up on his shoulder , as she soars above the crowd .
+  • a man in a khaki colored uniform carries a brunette woman in white clothing on his shoulder .
+Greedy:   "a man in a blue shirt is in a"
+Beam (k=3): ""
+----------------------------------------------------------------------
+
+Image 6: 7932925328.jpg
+Human references:
+  • a ballerina standing on the toes of one food with one arm up in the air and one leg lifted behind her .
+  • female ballerina doing a pose up on her toes of foot in a large room with a red floor .
+  • the young woman in a brown leotard is performing her ballet routine .
+Greedy:   "a man in a blue shirt is in a"
+Beam (k=3): ""
+----------------------------------------------------------------------
+
+Image 7: 2511794705.jpg
+Human references:
+  • a little boy with a ball cap on his head and sunglasses in one hand is writing on a white banner with lots of signatures .
+  • a young boy wearing a cap holds his sunglasses while signing a banner .
+  • a young boy signs his name on the large banner .
+Greedy:   "a man in a blue shirt is in a"
+Beam (k=3): ""
+----------------------------------------------------------------------
+
+Image 8: 212396217.jpg
+Human references:
+  • an eastern indian man with a mustache and glasses is sitting by a computer .
+  • a man in glasses completes a task beside a monitor that is not on .
+  • the man is on a computer playing with sound effects .
+Greedy:   "a man in a blue shirt is in a"
+Beam (k=3): ""
+----------------------------------------------------------------------
+
+Image 9: 2872778569.jpg
+Human references:
+  • a man walking by a woman who is standing on the street smoking a cigarette .
+  • a man walks past a woman on a sidewalk as he looks back at her .
+  • a man looking back at a blond woman smoking in the street .
+Greedy:   "a man in a blue shirt is in a"
+Beam (k=3): ""
+----------------------------------------------------------------------
+
+Image 10: 1497927568.jpg
+Human references:
+  • three women wearing black vests and gray shirts are talking outside of a building .
+  • three women outside all dress the same and talking to one another .
+  • three people in black and white costumes talking on the street .
+Greedy:   "a man in a blue shirt is in a"
+Beam (k=3): ""
+----------------------------------------------------------------------
+
